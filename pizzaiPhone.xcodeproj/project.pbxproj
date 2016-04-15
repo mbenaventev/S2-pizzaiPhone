@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6339AD601CBED31A006F680A /* ViewController_Cocinar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6339AD5F1CBED31A006F680A /* ViewController_Cocinar.swift */; };
 		6380E8851C7045840055E67A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6380E8841C7045840055E67A /* AppDelegate.swift */; };
 		6380E8871C7045840055E67A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6380E8861C7045840055E67A /* ViewController.swift */; };
 		6380E88A1C7045840055E67A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6380E8881C7045840055E67A /* Main.storyboard */; };
 		6380E88C1C7045840055E67A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6380E88B1C7045840055E67A /* Assets.xcassets */; };
 		6380E88F1C7045850055E67A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6380E88D1C7045850055E67A /* LaunchScreen.storyboard */; };
+		6380E8971C704C030055E67A /* ViewControllerMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6380E8961C704C030055E67A /* ViewControllerMasa.swift */; };
+		6380E8991C70559C0055E67A /* ViewControllerQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6380E8981C70559C0055E67A /* ViewControllerQueso.swift */; };
+		63B9A4DE1C75785C001C7898 /* ViewControllerIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9A4DD1C75785B001C7898 /* ViewControllerIngredientes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6339AD5F1CBED31A006F680A /* ViewController_Cocinar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_Cocinar.swift; sourceTree = "<group>"; };
 		6380E8811C7045840055E67A /* pizzaiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pizzaiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6380E8841C7045840055E67A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6380E8861C7045840055E67A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		6380E88B1C7045840055E67A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6380E88E1C7045850055E67A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6380E8901C7045850055E67A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6380E8961C704C030055E67A /* ViewControllerMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMasa.swift; sourceTree = "<group>"; };
+		6380E8981C70559C0055E67A /* ViewControllerQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerQueso.swift; sourceTree = "<group>"; };
+		63B9A4DD1C75785B001C7898 /* ViewControllerIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerIngredientes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				6380E88B1C7045840055E67A /* Assets.xcassets */,
 				6380E88D1C7045850055E67A /* LaunchScreen.storyboard */,
 				6380E8901C7045850055E67A /* Info.plist */,
+				6380E8961C704C030055E67A /* ViewControllerMasa.swift */,
+				6380E8981C70559C0055E67A /* ViewControllerQueso.swift */,
+				63B9A4DD1C75785B001C7898 /* ViewControllerIngredientes.swift */,
+				6339AD5F1CBED31A006F680A /* ViewController_Cocinar.swift */,
 			);
 			path = pizzaiPhone;
 			sourceTree = "<group>";
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6380E8991C70559C0055E67A /* ViewControllerQueso.swift in Sources */,
+				63B9A4DE1C75785C001C7898 /* ViewControllerIngredientes.swift in Sources */,
 				6380E8871C7045840055E67A /* ViewController.swift in Sources */,
 				6380E8851C7045840055E67A /* AppDelegate.swift in Sources */,
+				6339AD601CBED31A006F680A /* ViewController_Cocinar.swift in Sources */,
+				6380E8971C704C030055E67A /* ViewControllerMasa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +301,7 @@
 				6380E8951C7045850055E67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
